@@ -1,0 +1,84 @@
+{
+  "current": {
+    "colors_accent_1": "#264653",
+    "colors_accent_2": "#e9724a",
+    "type_header_font": "sans-serif",
+    "type_body_font": "sans-serif",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "favicon": "shopify:\/\/shop_images\/Einstein_Coffee.png",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Find your perfect brew ☕",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_width": 100,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "6ff98154-0d89-466e-8bf4-57939021633e": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "b10b65dd-33c0-46a6-b70c-7016f71d16de": {
+            "type": "text",
+            "settings": {
+              "heading": "Gravity Coffee",
+              "subtext": "<p>📍 9655 Green Port, Suite 535, Wilkinsonside, CA 92157<\/p><p><\/p><p>☎️ (314) 369-8652<\/p><p><\/p><p>📧 hello@gravitycoffee.com<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "6ff98154-0d89-466e-8bf4-57939021633e",
+          "footer-0",
+          "b10b65dd-33c0-46a6-b70c-7016f71d16de"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "For Coffee Lovers 💌",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}
