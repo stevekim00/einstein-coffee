@@ -27,7 +27,9 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": {}
+          "settings": {
+            "picker_type": "button"
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -35,7 +37,9 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": {}
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
         "description": {
           "type": "description",
@@ -57,15 +61,74 @@
         "description",
         "share"
       ],
-      "settings": {}
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {}
+    "164040403104cdcaaa": {
+      "type": "multicolumn",
+      "blocks": {
+        "1640404031e524a073-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farmer_copy.png",
+            "title": "Direct Relations to Farmers",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <\/p>"
+          }
+        },
+        "1640404031e524a073-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-plant_copy.png",
+            "title": "Tree Planted for Every Order",
+            "text": "<p>Consequat ac felis donec et odio pellentesque diam volutpat. Non quam lacus suspendisse faucibus interdum. Lectus quam id leo in. <\/p>"
+          }
+        },
+        "1640404031e524a073-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roaster_copy.png",
+            "title": "Roasted in Los Angeles",
+            "text": "<p>Odio ut sem nulla pharetra diam sit amet nisl. Vitae sapien pellentesque habitant morbi tristique senectus. Gravida neque convallis a cras semper auctor.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1640404031e524a073-0",
+        "1640404031e524a073-1",
+        "1640404031e524a073-2"
+      ],
+      "settings": {
+        "title": "Our Promises ⭐",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1640404188e8f8b33b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "You may also like ❤️",
+        "collection": "coffee",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "164040403104cdcaaa",
+    "1640404188e8f8b33b"
   ]
 }
