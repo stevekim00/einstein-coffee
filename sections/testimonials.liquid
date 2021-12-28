@@ -1,0 +1,71 @@
+{% unless section.settings.header == blank %}
+    <h2>{{section.settings.header}}</h2>
+{% endunless %}
+        
+<div class="testimonial-slider">
+
+    {% for block in section.blocks %}   
+        <div class="testimonial-card">
+            <div class="testimonial-icon">
+                {% render 'icon-quotes' %}
+            </div>
+            <div class="testimonial-text">
+                {{block.settings.text}}
+            </div>
+            <div class="testimonial-photo">
+                <img src="{{block.settings.image | img_url: '300x' }}">
+            </div> 
+            <div class="testimonial-name">
+                {{block.settings.name}}
+            </div>
+        </div>
+    {% endfor %}
+
+</div>
+
+<br>
+
+{% schema %}
+{
+    "name": "Testimonials",
+    "tag": "section",
+    "class": "testimonials",
+    "settings": [
+        {
+            "type": "text",
+            "id": "header",
+            "default": "Testimonials",
+            "label": "Header"
+        }
+    ],
+    "blocks": [
+        {
+            "type":"testimonial",
+            "name":"testimonial",
+            "settings": [
+                {
+                    "id":"text",
+                    "label": "Text",
+                    "type":"richtext"
+                },
+                {
+                    "id":"name",
+                    "label":"Name",
+                    "type":"text"
+                },
+                {
+                    "id":"image",
+                    "label":"Image",
+                    "type":"image_picker"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Testimonials",
+            "settings": {}
+        }
+    ]
+}
+{% endschema %}

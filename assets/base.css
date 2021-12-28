@@ -2112,3 +2112,45 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+
+
+/* TESTIMONIALS */
+#testimonial-slider-margin-bottom {
+  margin-bottom: 20px;
+}
+
+.testimonial-card {
+  margin: 20px;
+  padding: 30px;
+  box-shadow: 0 5px 5px -5px rgba(0,0,0,0.2),
+            -5px 0 5px -5px rgba(0,0,0,0.2), 
+            5px 0 5px -5px rgba(0,0,0,0.2);
+}
+
+.testimonial-card:focus {
+  box-shadow: 0 5px 5px -5px rgba(0,0,0,0.2),
+            -5px 0 5px -5px rgba(0,0,0,0.2), 
+            5px 0 5px -5px rgba(0,0,0,0.2);
+}
+
+.testimonial-icon svg {
+  max-width: 10%;
+  max-height: 35px;
+}
+
+.testimonial-text {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-photo img {
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 30%;
+}
+
+.testimonial-name, .testimonial-text, .testimonial-photo {
+  text-align: center;
+}
