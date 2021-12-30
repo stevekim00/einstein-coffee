@@ -2115,6 +2115,10 @@ details-disclosure > details {
 
 
 /* TESTIMONIALS */
+.testimonial-header {
+  align-items: center;
+}
+
 #testimonial-slider-margin-bottom {
   margin-bottom: 20px;
 }

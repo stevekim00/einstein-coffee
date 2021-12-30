@@ -102,7 +102,7 @@
       "settings": {
         "title": "Our Promises ⭐",
         "image_width": "third",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
@@ -118,17 +118,64 @@
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": false,
-        "add_image_padding": false,
+        "add_image_padding": true,
         "show_image_outline": true,
-        "show_vendor": false
+        "show_vendor": true
+      }
+    },
+    "1640751944f4cab784": {
+      "type": "testimonials",
+      "blocks": {
+        "46a467d6-b428-4419-88b5-3ec8d6d5c7a9": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <\/p>",
+            "name": "Dave",
+            "image": "shopify:\/\/shop_images\/user_3.jpg"
+          }
+        },
+        "6a06ce79-8faa-4a75-be6e-76a1b5336b87": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <\/p>",
+            "name": "Ashley",
+            "image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        },
+        "93f858b1-b23e-4583-af83-815e1b40b630": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Libero nunc consequat interdum varius sit amet. Non arcu risus quis varius quam quisque id diam vel.<\/p>",
+            "name": "Charlie",
+            "image": "shopify:\/\/shop_images\/user_1.jpg"
+          }
+        },
+        "9ee9c2fc-5c2e-4b5a-bcfe-8f372e5a5a27": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim facilisis gravida neque convallis a cras semper auctor.<\/p>",
+            "name": "Bill",
+            "image": "shopify:\/\/shop_images\/user_4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "46a467d6-b428-4419-88b5-3ec8d6d5c7a9",
+        "6a06ce79-8faa-4a75-be6e-76a1b5336b87",
+        "93f858b1-b23e-4583-af83-815e1b40b630",
+        "9ee9c2fc-5c2e-4b5a-bcfe-8f372e5a5a27"
+      ],
+      "settings": {
+        "header": "Testimonials"
       }
     }
   },
   "order": [
     "main",
     "164040403104cdcaaa",
-    "1640404188e8f8b33b"
+    "1640404188e8f8b33b",
+    "1640751944f4cab784"
   ]
 }

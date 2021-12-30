@@ -1,26 +1,29 @@
-{% unless section.settings.header == blank %}
-    <h2>{{section.settings.header}}</h2>
-{% endunless %}
-        
-<div class="testimonial-slider">
+<div class="page-width">
 
-    {% for block in section.blocks %}   
-        <div class="testimonial-card">
-            <div class="testimonial-icon">
-                {% render 'icon-quotes' %}
-            </div>
-            <div class="testimonial-text">
-                {{block.settings.text}}
-            </div>
-            <div class="testimonial-photo">
-                <img src="{{block.settings.image | img_url: '300x' }}">
-            </div> 
-            <div class="testimonial-name">
-                {{block.settings.name}}
-            </div>
-        </div>
-    {% endfor %}
+    {% unless section.settings.header == blank %}
+        <h2 class="testimonial-header">{{section.settings.header}}</h2>
+    {% endunless %}
+            
+    <div class="testimonial-slider">
 
+        {% for block in section.blocks %}   
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    {% render 'icon-quotes' %}
+                </div>
+                <div class="testimonial-text">
+                    {{block.settings.text}}
+                </div>
+                <div class="testimonial-photo">
+                    <img src="{{block.settings.image | img_url: '300x' }}">
+                </div> 
+                <div class="testimonial-name">
+                    {{block.settings.name}}
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
 </div>
 
 <br>
